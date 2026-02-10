@@ -1,0 +1,28 @@
+#YAML is all about Key Value
+Key: String|12|true| "for string with special characters"
+
+
+# eg of object | used in jobs and workflows
+config:
+  path: C:\\
+  enviorment: prod
+
+
+# arrays in YAML
+colors:
+  - red
+  - 10
+  - true
+  # araay of object
+  - name: red
+    hex: F000
+  - name: white
+    hex: F000
+  - name: black
+    hex: F000
+  # objects can go at many levels
+  - name: silver
+    hex : GUUASID
+    labels:
+      - experiemntal: true
+      - accessibility: false
