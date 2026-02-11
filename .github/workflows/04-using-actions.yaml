@@ -20,11 +20,6 @@ jobs:
             # this is the right way to do it
             - name: Printing Folders
               run: ls
-            - name: Where am I?
-              run: |
-                    pwd
-                    ls -la
-                    ls -la using-actions/react-app
             - name: Install Dependencies
               run: npm ci
              
