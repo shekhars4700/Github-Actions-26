@@ -9,7 +9,7 @@ jobs:
             - name: Setup Node
               uses: actions/setup-node@v3
               with:
-                node-version: '20.x' 
+                node-version: '20.17' 
             # this is incoorrect as it runs in root Directory and it fails as there is no package.lock.json
                 # - name: Install Dependencies
             #   run: npm ci
