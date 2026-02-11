@@ -1,5 +1,5 @@
 name: 01-BuildingBlocks
-on: push
+on: pull_request
 jobs: 
     echo-hello:
         runs-on: ubuntu-latest
